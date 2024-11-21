@@ -1,0 +1,118 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5b2a82384073854a6bbfb1d5240abc9d",
+    "packages": [
+        {
+            "name": "mdurrant/php-binary-reader",
+            "version": "1.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mdurrant/php-binary-reader.git",
+                "reference": "9abf18d7b361d0ae1cd80fc6782e59b313586db6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mdurrant/php-binary-reader/zipball/9abf18d7b361d0ae1cd80fc6782e59b313586db6",
+                "reference": "9abf18d7b361d0ae1cd80fc6782e59b313586db6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PhpBinaryReader\\": [
+                        "src/",
+                        "test/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Durrant",
+                    "email": "mdurrant@gmail.com"
+                }
+            ],
+            "description": "Lightweight binary reader for PHP",
+            "support": {
+                "issues": "https://github.com/mdurrant/php-binary-reader/issues",
+                "source": "https://github.com/mdurrant/php-binary-reader/tree/master"
+            },
+            "time": "2016-12-08T01:24:19+00:00"
+        },
+        {
+            "name": "uro/teltonika-fm-parser",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/uro/teltonika-fm-parser.git",
+                "reference": "4299c78915297632a2cc8d74608667fb3253cf4d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/uro/teltonika-fm-parser/zipball/4299c78915297632a2cc8d74608667fb3253cf4d",
+                "reference": "4299c78915297632a2cc8d74608667fb3253cf4d",
+                "shasum": ""
+            },
+            "require": {
+                "mdurrant/php-binary-reader": "^1.0",
+                "php": ">=8.1"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.15",
+                "mockery/mockery": "^1.5",
+                "phpstan/phpstan": "^1.10",
+                "phpunit/phpunit": "^10.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Uro\\TeltonikaFmParser\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arkadiusz Surma",
+                    "email": "arkadiusz@uchy.pl"
+                }
+            ],
+            "description": "Teltonika FMXXXX parser library",
+            "support": {
+                "issues": "https://github.com/uro/teltonika-fm-parser/issues",
+                "source": "https://github.com/uro/teltonika-fm-parser/tree/3.0.0"
+            },
+            "time": "2023-09-21T09:14:15+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

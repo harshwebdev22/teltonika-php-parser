@@ -1,0 +1,5 @@
+{
+    "require": {
+        "uro/teltonika-fm-parser": "^3.0"
+    }
+}
